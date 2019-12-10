@@ -1,0 +1,40 @@
+.wrappers{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.4); 
+}
+
+.gambar{
+    background-image: url('../src/bgmoss.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.wrapper-top{
+    display: flex;
+    margin-left: 20%;
+}
+.top-name h1{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.icon img{
+margin-left: 900%;
+margin-top: 5%;
+
+}
+.top-name{
+    display: flex;
+}
+h1{
+    color: seagreen;
+}
+span{
+    color: white;
+}
+.wrapper-desc{
+    margin-top: 20%;
+}
